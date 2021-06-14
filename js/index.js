@@ -53,11 +53,18 @@ const focusImg = document.querySelectorAll("body img")
 
 focusImg.forEach(element => {
     element.addEventListener("focus" , () => {
-        element.style.border = "10px solid red "
+    element.style.border = "10px solid red "
     })
 });
 
-const navKey=document.querySelectorAll(".nav a")
-navKey.addEventListener("keydown" , () => {
-    navKey.style.color = "red"
+const inputType = document.querySelector('input[type="text"]')
+inputType.style.marginLeft ="700px"
+inputType.addEventListener("focus" , () => {
+    inputType.style.background = "red"
+})
+
+const sclor =document.querySelector(".destination")
+
+sclor..addEventListener.("scroll" , ()=>{
+    
 })
